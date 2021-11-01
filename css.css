@@ -1,0 +1,37 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gainsboro;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255);
+}
+
+input,
+textarea,
+button {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px auto;
+    display: block;
+}
+
+textarea,
+input[type="text"] {
+    width: 90%;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    font-size: 16px;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+}
